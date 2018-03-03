@@ -1,12 +1,12 @@
-Rækkefølge mved oprettelse af git/maven projekt
+Rækkefølge ved oprettelse af git/maven projekt
 
 1) Opret nyt repository i github.
-2) Clone til overordnet mappe.
+2) Clone til overordnet mappe på lokal maskine.
 3) Gå ind i den nye folder der blev dannet.
 4) Lav en pomfil - her blev den taget fra https://github.com/programming-clinic/quick-start-maven-course.
 5) Kommandoer git: status, log, add, commit -m"meddelse"
-6) kommandoer maven: mvn compile - det er pom filen mavne bruger som drejebog.
+6) kommandoer maven: mvn compile - det er pom filen maven bruger som drejebog.
 
-Maven bygger på convention over configuration.
+Maven bygger på convention over configuration: project/src/java - osv.
 
-project/src/java osv
+

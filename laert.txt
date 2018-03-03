@@ -1,3 +1,4 @@
+
 Rækkefølge ved oprettelse af git/maven projekt
 
 1) Opret nyt repository i github.
@@ -7,6 +8,10 @@ Rækkefølge ved oprettelse af git/maven projekt
 5) Kommandoer git: status, log, add, commit -m"meddelse"
 6) kommandoer maven: mvn compile - det er pom filen maven bruger som drejebog.
 
-Maven bygger på convention over configuration: project/src/java - osv.
+Maven bygger på convention over configuration: project/src/main/java, src/main/resources - osv.
 
+Linux trick mkdir -p src/main/java laver alle manglende foldere.
+clear - consollen renses.
+
+git håndterer ikke tomme foldere - så hvis man vil tracke sin folderstruktur i git skal man lægge filer i. Dem kan man feks kalde .gitkeep
 

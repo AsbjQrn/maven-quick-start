@@ -15,3 +15,11 @@ clear - consollen renses.
 
 git håndterer ikke tomme foldere - så hvis man vil tracke sin folderstruktur i git skal man lægge filer i. Dem kan man feks kalde .gitkeep
 
+Afvikle java jar kommando:
+
+java -cp name.jar package1.package2.package3.Classname
+
+Maven har tre indbyggede lifecycles - default(byg), clean(fjern target), site(dokumentation).  
+
+
+

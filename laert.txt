@@ -19,7 +19,15 @@ Afvikle java jar kommando:
 
 java -cp name.jar package1.package2.package3.Classname
 
-Maven har tre indbyggede lifecycles - default(byg), clean(fjern target), site(dokumentation).  
+Maven har tre indbyggede lifecycles - default(byg), clean(fjern target), site(dokumentation).
+
+install lifecycle kopierer target jar ud fra target mappen og ind i local m2 mavenrepository.
+
+git remote -v: verbose output omkring hvor vores repository stammer fra.
+git push origin master - origin er der vi fik vores kode fra til at begynde med og vi vil gerne pushe vores lokale master til origin. Vores lokale master bliver remote master. Hmmmmmmm (??)
+
+Maven bygger på plugins feks: <build><plugins><plugin>   "her kan man feks lægge en compilerplugin "
+   
 
 
 

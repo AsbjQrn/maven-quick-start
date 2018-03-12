@@ -29,7 +29,8 @@ git push origin master - origin er der vi fik vores kode fra til at begynde med 
 Maven bygger på plugins feks: <build><plugins><plugin>   "her kan man feks lægge en compilerplugin "
 
 En dependency i maven har et scope. Feks compile - betyder at den jar der udgør dependency'en skal bruges på compile tidspunktet. Andre scopes kan være test, runtime, provided (noget en server stiller til rådighed), med flere
-   
+
+Git -am "commitmessage: denne kommando adder og committer på een gang"
 
 
 

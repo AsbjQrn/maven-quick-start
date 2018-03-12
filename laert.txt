@@ -32,5 +32,13 @@ En dependency i maven har et scope. Feks compile - betyder at den jar der udgør
 
 Git -am "commitmessage: denne kommando adder og committer på een gang"
 
+En maven lifecycle indeholder faser:
+Lifecycle default indeholder: validate compile test package verify install deploy
+Lifecycle clean indeholder: pre-clean clean post-clean
+Lifecycle clean site: pre-site site post-site site-deploy
+
+En buildfase er opbygget af plugin goals. 
+
+
 
 

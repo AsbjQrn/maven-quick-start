@@ -43,6 +43,8 @@ en plugin kan afvikles således:
 
 mvn dependency:tree - plugintnet hedder dependency og goal er tree - den udskiriver liste over dependencyes
 
+Man kan i linux/mac redirecte til txtfil således: mvn dependency:tree > dependencyUdskrevet.txt
+
 
 
 

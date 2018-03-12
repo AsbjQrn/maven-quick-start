@@ -39,6 +39,10 @@ Lifecycle clean site: pre-site site post-site site-deploy
 
 En buildfase er opbygget af plugin goals. 
 
+en plugin kan afvikles således:
+
+mvn dependency:tree - plugintnet hedder dependency og goal er tree - den udskiriver liste over dependencyes
+
 
 
 
